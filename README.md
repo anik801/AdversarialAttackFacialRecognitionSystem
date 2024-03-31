@@ -27,11 +27,18 @@ In this project, we focus on facial recognition systems, which are widely used i
 Figure: (a) Original input image, (b) Adversarial image, (c) The perturbation x 100, (d) The target
 image. Attack results with spatial constraints.
 
+## Source Code and Data
+
+- [CODE](https://github.com/anik801/AdversarialAttackFacialRecognitionSystem/blob/main/FaceAttackSpatialConstraint.ipynb) is the source code for the task.
+- [TEST DATASET](https://github.com/anik801/AdversarialAttackFacialRecognitionSystem/tree/main/Sample%20Data) contains the some sample data to test the code.
+- [PRE-TRAINED MODEL](https://github.com/anik801/AdversarialAttackFacialRecognitionSystem/tree/main/Model) contains the pre-trained ResNet50 model.
+- [REPORT](https://github.com/anik801/AdversarialAttackFacialRecognitionSystem/tree/main/Face_Attack_Report.pdf) contains detailed project report.
+
 ## Instructions to replicate work
 
 This code was written in Python 3.6 and Jupyter Notebook.
 
-### Pre-requisites:
+## Pre-requisites:
 
 - Python 3.6
 - PyTorch
@@ -39,13 +46,7 @@ This code was written in Python 3.6 and Jupyter Notebook.
 - Foolbox
 - DLib
 
-## Source Code and Data
-
-- [CODE]() is the source code for the task.
-- [TEST DATASET]() contains the some sample data to test the code.
-- [PRE-TRAINED MODEL]() contains the pre-trained ResNet50 model.
-
-### Steps:
+## Steps:
 
 - Download the MCS 2018 dataset and place the images in “/data/imgs/” directory.
 - Download the pretrained ResNet50 model and place in “./resnet50/” directory.
